@@ -1,0 +1,109 @@
+/* scroll */
+.scroll-top.reveal {
+    opacity: 1;
+    
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    transition: all .5s ease 0s;
+    backdrop-filter: blur(4px);
+    background: rgba(242,182,29,.1);
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    box-shadow: #11111a1a 0 1px, #11111a1a 0 8px 24px, #11111a1a 0 16px 48px;
+    cursor: hand;
+    border-radius: 10px;
+    }
+#myBtn svg {
+    color: #ffb800;
+}
+/* end scroll */
+/* footer */
+.footer {
+    background-color: #039;
+    color: #fff;
+}
+.footer .footer-wrapper-row {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-wrapper-row-item .head h2 {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.w-\[40\%\] {
+    width: 40%;
+}
+.w-\[15\%\] {
+    width: 15%;
+}
+.footer .footer-wrapper-row-item .body .social-media {
+    display: grid;
+    gap: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.footer .footer-wrapper-row-item .body .social-media .btn {
+    display: flex;
+    place-items: center;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+}
+.footer .footer-wrapper-row-item .body .social-media .btn img {
+    width: 1.3rem;
+    height: 1.3rem;
+    transition: .5s;
+}
+.w-\[20\%\] {
+    width: 20%;
+}
+.footer .footer-wrapper-row-item .body .download {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.footer .footer-wrapper-row-item .body .flex-col {
+    flex-direction: column;
+}
+
+.footer .footer-wrapper-row-item .body .flex {
+    display: flex;
+}
+.footer .footer-wrapper-row-item .body .download-app img {
+    cursor: pointer;
+    width: 150px!important;
+    height: 48px!important;
+}
+.w-\[25\%\] {
+    width: 25%;
+}
+.footer .footer-wrapper-row-item .body iframe.map {
+    height: 180px;
+}
+.footer .footer-wrapper-row-item .body {
+    margin-top: 1rem;
+}
+/* end footer */
+/* footer buttom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039;
+    color: #fff;
+    padding: 1.5rem 0;
+    font-weight: 400;
+    border-top: 1px solid #fff;
+}
+/* end footer buttom */
